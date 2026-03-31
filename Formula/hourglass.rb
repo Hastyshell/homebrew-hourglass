@@ -7,11 +7,11 @@ class Hourglass < Formula
   on_macos do
     on_arm do
       url "https://github.com/Hastyshell/hourglass/releases/download/v#{version}/hourglass-macos-aarch64.tar.gz"
-      sha256 "3d5c25fba1081102558c977a98763747c3f4694edbb647072a403123acd5f235"
+      sha256 "99b0b2c21122dd295fec6b3b182a67a774e21bd1298171545e78fd87d6fe8d22"
     end
     on_intel do
       url "https://github.com/Hastyshell/hourglass/releases/download/v#{version}/hourglass-macos-x86_64.tar.gz"
-      sha256 "ce8f7b7a158f53294adb830f7ab97d6f55d5c6f31d155ab45813586ed153aee2"
+      sha256 "13f3afc74fc60be55e9e41fbe6e8760b457cd8f88222be9f9597a03f82e4a74f"
     end
   end
 
