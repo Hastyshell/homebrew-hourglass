@@ -1,17 +1,17 @@
 class Hourglass < Formula
   desc "Time, measured in tokens."
   homepage "https://github.com/Hastyshell/hourglass"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Hastyshell/hourglass/releases/download/v#{version}/hourglass-macos-aarch64.tar.gz"
-      sha256 "850ec83d3dd90beacfd331da2637806e1610befb117d5ebae47519006659ccee"
+      sha256 "3d5c25fba1081102558c977a98763747c3f4694edbb647072a403123acd5f235"
     end
     on_intel do
       url "https://github.com/Hastyshell/hourglass/releases/download/v#{version}/hourglass-macos-x86_64.tar.gz"
-      sha256 "8dbf0db188a6ce8d9486ee6d95f71a6cbde35274208a4370116c52e3e11a0022"
+      sha256 "ce8f7b7a158f53294adb830f7ab97d6f55d5c6f31d155ab45813586ed153aee2"
     end
   end
 
